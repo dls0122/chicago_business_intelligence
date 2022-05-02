@@ -214,9 +214,9 @@ func main() {
 	for {
 		// build and fine-tune functions to pull data from different data sources
 		// This is a code snippet to show you how to pull data from different data sources//.
-		GetTaxiTrips(db)
 		GetUnemploymentRates(db)
 		GetBuildingPermits(db)
+		GetTaxiTrips(db)	
 
 		// Pull the data once a day
 		// You might need to pull Taxi Trips and COVID data on daily basis
